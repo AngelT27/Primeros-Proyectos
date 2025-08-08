@@ -1,0 +1,25 @@
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar entornos virtuales
+venv/
+env/
+
+# Ignorar archivos temporales de editores
+*.swp
+*.swo
+*~
+.vscode/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar exportaciones generadas
+exports/*.txt
+
+# Ignorar backups
+*.bak
+*.tmp
